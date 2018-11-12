@@ -10,7 +10,8 @@ sbt new seratch/long-lasting-scala.g8
 
 @seratch gave a talk about 5 tips to build long lasting Scala OSS at [Scale By The Bay 2018](http://scale.bythebay.io/). This sbt template demonstrates all the tips in the talk.
 
-http://scale.bythebay.io/
+* http://scale.bythebay.io/
+* https://scalebythebay2018.sched.com/event/ImvE/5-tips-to-build-long-lasting-scala-oss
 
 Template license
 ----------------
