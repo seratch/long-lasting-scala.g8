@@ -3,8 +3,8 @@ lazy val root = (project in file("."))
     organization := "$organizationName$",
     name := "$projectName$",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := "2.12.7",
-    crossScalaVersions := Seq("2.12.7", "2.11.12"),
+    scalaVersion := "2.12.8",
+    crossScalaVersions := Seq("2.12.8", "2.11.12"),
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-Xfuture"),
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.5" % Test

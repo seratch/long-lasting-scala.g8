@@ -2,14 +2,14 @@ language: scala
 sudo: false
 scala:
   - 2.11.12
-  - 2.12.7
+  - 2.12.8
   - 2.13.0-M5
 jdk:
   - oraclejdk8
   - openjdk11
 matrix:
   include:
-  - scala: 2.12.7
+  - scala: 2.12.8
     jdk: oraclejdk9
 script:
   sbt ++\$TRAVIS_SCALA_VERSION scalafmtSbtCheck scalafmtCheck test
