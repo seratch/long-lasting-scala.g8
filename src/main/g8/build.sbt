@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.5" % Test
     ),
+    scalafmtOnCompile := true,
     // FYI: https://www.scala-sbt.org/1.0/docs/Using-Sonatype.html
     publishTo := {
       val nexus = "https://oss.sonatype.org/"
