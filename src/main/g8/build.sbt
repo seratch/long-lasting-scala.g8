@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
     name := "$projectName$",
     version := "0.1.0-SNAPSHOT",
     scalaVersion := "2.12.8",
-    crossScalaVersions := Seq("2.13.0-M5", "2.12.8", "2.11.12"),
+    crossScalaVersions := Seq("2.13.0-RC1", "2.12.8", "2.11.12"),
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-Xfuture"),
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.5" % Test
